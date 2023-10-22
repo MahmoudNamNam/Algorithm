@@ -34,4 +34,4 @@ if __name__ == "__main__":
 
     for num in output_array:
         print(num, end=" ")
->>>>>>> 88fee41232b9dc675c16e5a5d7e1e499f37dcd53
+
