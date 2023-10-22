@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python program for implementation of Insertion Sort
 
 
@@ -18,3 +19,25 @@ arr = [*map(int, input().split())]
 insertionSort(arr)
 for i in range(len(arr)):
     print("% d" % arr[i],end=' ')
+=======
+# Python program for implementation of Insertion Sort
+
+
+# Function to do insertion sort
+def insertionSort(arr):
+
+
+    for i in range(1, len(arr)):
+        key = arr[i]
+        j = i - 1
+        while j >= 0 and key < arr[j]:
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j + 1] = key
+
+
+arr = [*map(int, input().split())]
+insertionSort(arr)
+for i in range(len(arr)):
+    print("% d" % arr[i],end=' ')
+>>>>>>> 88fee41232b9dc675c16e5a5d7e1e499f37dcd53
